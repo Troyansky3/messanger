@@ -1,23 +1,10 @@
+@import "ResetStyles.scss";
+
 body {
   font-family: 'Inter', sans-serif;
 
   background: linear-gradient(107.56deg, #4E54C8 0%, #8F94FB 100%);
   margin: 0;
-}
-
-input {
-  padding: 0;
-  margin: 0;
-  border: 0;
-}
-
-h1 {
-  margin: 0;
-}
-
-button {
-  background: none;
-  border: 0;
 }
 
 .Sign-up {
