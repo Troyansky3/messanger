@@ -1,0 +1,96 @@
+@import "ResetStyles.scss";
+
+body {
+  font-family: 'Inter', sans-serif;
+
+  background: linear-gradient(107.56deg, #4E54C8 0%, #8F94FB 100%);
+  margin: 0;
+}
+
+.Sign-up {
+  width: 100%;
+  max-width: 340px;
+
+  padding: 50px 30px 30px;
+
+  background: #FFFFFF;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.14);
+  border-radius: 12px;
+
+  &__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 100vh;
+  }
+
+  &__title {
+    margin-bottom: 40px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #1E1E1E;
+  }
+
+  &__input {
+    width: 100%;
+    padding: 7px 0;
+    margin-bottom: 16px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 13px;
+    color: #1E1E1E;
+    border-bottom: 1px solid #3369F3;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  &__label {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 9px;
+    line-height: 9px;
+    color: #999999;
+  }
+
+  &__btn {
+    width: 100%;
+    padding: 12px 70px;
+    margin-top: 46px;
+    margin-bottom: 14px;
+
+    background: #3369F3;
+    border-radius: 8px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 13px;
+    text-align: center;
+    color: #FFFFFF
+  }
+
+  &__link {
+    display: block;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 11px;
+    text-align: center;
+    color: #3369F3;
+
+    text-decoration: none;
+  }
+}
+
+
